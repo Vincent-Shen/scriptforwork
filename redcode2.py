@@ -43,3 +43,5 @@ for foldername in brands:
     for filename in filenamelist:
         if foldername == format_filename(filename):#将对应红码文件拷贝放入对应品牌文件夹中
             shutil.copy('/Users/vincent/Desktop/redcode/' + filename , '/Users/vincent/Desktop/results/' + foldername)
+
+#test
